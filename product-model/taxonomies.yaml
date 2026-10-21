@@ -1,0 +1,13 @@
+scenarioKinds:
+- id: primary
+  name: Primary
+  description: The ordinary successful path.
+- id: alternate
+  name: Alternate
+  description: Another supported path to the capability outcome.
+- id: validation
+  name: Validation
+  description: Input does not satisfy the operation contract.
+- id: edge
+  name: Edge
+  description: Recovery, interruption or an unavailable dependency.
